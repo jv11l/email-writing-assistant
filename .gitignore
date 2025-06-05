@@ -1,0 +1,4 @@
+notebooks/
+.vscode/
+responses/
+__pycache__
