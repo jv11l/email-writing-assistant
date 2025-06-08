@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 
-COMPONENTS_DIR = Path('')
+COMPONENTS_DIR = Path('src/prompts/components')
 CONSTRAINTS = False
 
 # Load prompts components and store them in a dictionary
