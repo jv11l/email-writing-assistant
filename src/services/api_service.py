@@ -2,13 +2,11 @@ from src.services.mistral_client import MistralAPIClient
 from ..settings.settings import Settings
 
 
-config = Settings.get_config()
-model = config['model']
+config: dict = Settings.get_config()
+model: str = config['model']
 client = MistralAPIClient()
 
 def chat_with_mistral(messages) -> str:
-    print(client)
-    
     chat_response = client.chat.complete(
         model=model,
         temperature=0.5,
