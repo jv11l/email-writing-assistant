@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 
 COMPONENTS_DIR = Path('src/prompts/components')
-CONSTRAINTS = False
+CONSTRAINTS = True
 
 # Load prompts components and store them in a dictionary
 prompt_components = {}
@@ -21,6 +21,7 @@ else:
 user_instructions = f"""You act as an email writing assistant.
 
 {prompt_components['instructions']}
+{prompt_components['context']}
 
 Follow the guidelines delimited by the XML tags <guidelines> </guidelines> 
 for drafting your email and adhere to any specific constraints delimited by 
@@ -48,6 +49,8 @@ the XML tags <constraints> </constraints>.
 
 user_instructions= f"""
 {prompt_components['instructions']}
+{prompt_components['context']}
+
 """
 
 # Define prompt messages without prefix
@@ -66,5 +69,4 @@ messages_sys_usr_pre = [
 ]
 
 ### TODO
-# Add context
-# Encapsulate into functions? class?
+# Encapsulate into class
