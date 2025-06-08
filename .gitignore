@@ -1,4 +1,9 @@
-notebooks/
+# Folders
+__pycache__/
 .vscode/
+archives/
+notebooks/
 responses/
-__pycache__
+
+# Files
+sandbox.py
