@@ -1,0 +1,2 @@
+- Write your message in German.
+- Provide an English translation of your message.

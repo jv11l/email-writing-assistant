@@ -1,2 +1,0 @@
-- Writing language: write your message in English.
-- Translation: Provide a translation of your message in German

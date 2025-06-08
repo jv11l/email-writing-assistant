@@ -2,5 +2,5 @@
 - Clarity and Conciseness: ensure your sentences are clear and to the point. Avoid unnecessary details that can distract from the main message.
 - Grammar and Punctuation: double-check for grammatical errors and proper punctuation to maintain professionalism.
 - Tone: aim for a balance between professionalism and friendliness in order to help build a good rapport with the recipient.
-- Proofreading: always proofread your emails before sending them. This helps catch any overlooked errors and improves the overall quality of your communication.
+- Proofreading: always proofread your message. This helps catch any overlooked errors and improves the overall quality of the communication.
 - Structure: organize your thoughts logically. Start with the purpose of your email, followed by any necessary details, and end with a call to action or closing remarks.
